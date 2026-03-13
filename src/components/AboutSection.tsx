@@ -14,7 +14,7 @@ const getAge = () => {
 const stats = [
   { value: "13", label: "Countries Visited" },
   { value: `${getAge()}`, label: "EXP Level" },
-  { value: "🇨🇦🇯🇵🇵🇭", label: "Heritage" },
+  { value: "🇨🇦 🇯🇵 🇵🇭", label: "Heritage" },
 ];
 
 const AboutSection = () => {
@@ -24,10 +24,10 @@ const AboutSection = () => {
       <img
         src={aboutBg}
         alt=""
-        className="absolute inset-0 w-full h-full object-cover opacity-15"
+        className="absolute inset-0 w-full h-full object-cover opacity-40"
         loading="lazy"
       />
-      <div className="absolute inset-0 bg-background/80" />
+      <div className="absolute inset-0 bg-background/60" />
 
       <div className="container mx-auto px-6 relative z-10">
         <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-12">
