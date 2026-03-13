@@ -24,7 +24,7 @@ const AboutSection = () => {
       <img
         src={aboutBg}
         alt=""
-        className="absolute inset-0 w-full h-full object-cover opacity-15"
+        className="absolute inset-0 w-full h-full object-cover opacity-40"
         loading="lazy"
       />
       <div className="absolute inset-0 bg-background/80" />
