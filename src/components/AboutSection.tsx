@@ -14,7 +14,7 @@ const getAge = () => {
 const stats = [
   { value: "13", label: "Countries Visited" },
   { value: `${getAge()}`, label: "EXP Level" },
-  { value: "🇨🇦🇯🇵🇵🇭", label: "Heritage" },
+  { value: "🇨🇦 🇯🇵 🇵🇭", label: "Heritage" },
 ];
 
 const AboutSection = () => {
