@@ -1,13 +1,35 @@
+import aboutBg from "@/assets/about-bg.jpg";
+
+const getAge = () => {
+  const birth = new Date(2002, 2, 28); // March 28, 2002
+  const today = new Date();
+  let age = today.getFullYear() - birth.getFullYear();
+  const monthDiff = today.getMonth() - birth.getMonth();
+  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
+    age--;
+  }
+  return age;
+};
+
 const stats = [
   { value: "13", label: "Countries Visited" },
-  { value: "23", label: "EXP Level" },
+  { value: `${getAge()}`, label: "EXP Level" },
   { value: "🇨🇦🇯🇵🇵🇭", label: "Heritage" },
 ];
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-24 md:py-32">
-      <div className="container mx-auto px-6">
+    <section id="about" className="py-24 md:py-32 relative overflow-hidden">
+      {/* Background image */}
+      <img
+        src={aboutBg}
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover opacity-15"
+        loading="lazy"
+      />
+      <div className="absolute inset-0 bg-background/80" />
+
+      <div className="container mx-auto px-6 relative z-10">
         <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-12">
           About Me
         </h2>
