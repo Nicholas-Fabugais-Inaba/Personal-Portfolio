@@ -1,73 +1,42 @@
-# Welcome to your Lovable project
+# 🌍 Personal Travel Portfolio
 
-## Project info
+A personal portfolio website showcasing my travel adventures around the world — built with React, TypeScript, Vite, Tailwind CSS, and shadcn/ui.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🔗 Live Preview
 
-## How can I edit this code?
+**[View the site →](https://id-preview--bf56d211-dc11-404c-9625-97827d8379cc.lovable.app)**
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- **Interactive Travel Gallery** — Browse trips by year with dynamic photo galleries and a full-screen lightbox viewer
+- **About Me** — Personal bio with heritage flags, experience level (age), and countries visited
+- **Responsive Design** — Looks great on desktop, tablet, and mobile
+- **Dark Theme** — Elegant dark aesthetic with smooth animations
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🗺️ Destinations
 
-Changes made via Lovable will be committed automatically to this repo.
+Trips span from 2019–2026 across Asia, Europe, North America, and more — including Japan, Italy, Seoul, Philippines, Portugal, Amsterdam, Hawaii, Nashville, and many others.
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- [Vite](https://vitejs.dev/) — Fast build tool
+- [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) — Utility-first styling
+- [shadcn/ui](https://ui.shadcn.com/) — Component library
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📂 Adding Trip Photos
 
-Follow these steps:
+Drop `.jpeg` or `.JPG` images into `src/assets/trips/{tripId}/`. The first file alphabetically becomes the cover image. Prefix a filename with `0_` to control which photo appears as the cover.
+
+## 🚀 Getting Started
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
 npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 📦 Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click **Share → Publish**.

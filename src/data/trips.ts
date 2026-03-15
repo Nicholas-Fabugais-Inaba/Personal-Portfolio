@@ -30,6 +30,14 @@ function loadTripImages(id: string): string[] {
 
 export const tripsData: Omit<Trip, "images">[] = [
   {
+    id: "nashville",
+    name: "Nashville",
+    years: "2025 / 2026",
+    yearValues: [2025, 2026],
+    description: "Road trip down to Nashville for New Year's with friends, exploring Broadway, going to my first shooting range, and playing at Topgolf",
+    locations: ["Topgolf", "Broadway", "Gun Range", "Road Trip", "Buc-ee's"],
+  },
+  {
     id: "japan",
     name: "Japan",
     years: "2025",
@@ -140,4 +148,4 @@ export const trips: Trip[] = tripsData.map((t) => ({
   images: loadTripImages(t.id),
 }));
 
-export const allYears = [2025, 2024, 2023, 2022, 2019];
+export const allYears = [2026, 2025, 2024, 2023, 2022, 2019];
