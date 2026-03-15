@@ -148,4 +148,4 @@ export const trips: Trip[] = tripsData.map((t) => ({
   images: loadTripImages(t.id),
 }));
 
-export const allYears = [2025, 2024, 2023, 2022, 2019];
+export const allYears = [2026, 2025, 2024, 2023, 2022, 2019];
