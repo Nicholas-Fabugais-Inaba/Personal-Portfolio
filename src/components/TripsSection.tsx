@@ -14,7 +14,7 @@ const TripsSection = () => {
 
   return (
     <>
-      <section id="trips" className="py-24 md:py-32">
+      <section id="trips" className="py-24 md:py-32 bg-card">
         <div className="container mx-auto px-6">
           <div className="mb-12">
             <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">

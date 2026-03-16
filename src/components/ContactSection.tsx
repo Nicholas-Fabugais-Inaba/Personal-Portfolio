@@ -9,7 +9,7 @@ const socials = [
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-24 md:py-32">
+    <section id="contact" className="py-24 md:py-32 bg-card">
       <div className="container mx-auto px-6 text-center">
         <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6">
           Let's Connect

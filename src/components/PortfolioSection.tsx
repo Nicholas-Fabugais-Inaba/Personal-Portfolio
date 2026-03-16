@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ExternalLink } from "lucide-react";
 import aiAcademyPreview from "@/assets/portfolio/ai-academy-preview.jpg";
 
-type Category = "All" | "Projects" | "UGC" | "Brand Deals";
+type Category = "All" | "Projects";
 
 interface PortfolioItem {
   id: string;
@@ -27,7 +27,7 @@ const portfolioItems: PortfolioItem[] = [
   },
 ];
 
-const categories: Category[] = ["All", "Projects", "UGC", "Brand Deals"];
+const categories: Category[] = ["All", "Projects"];
 
 const PortfolioSection = () => {
   const [activeCategory, setActiveCategory] = useState<Category>("All");
@@ -44,9 +44,6 @@ const PortfolioSection = () => {
           <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
             Portfolio
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl">
-            Projects, collaborations, and creative work I've been a part of.
-          </p>
         </div>
 
         {/* Category filters */}
