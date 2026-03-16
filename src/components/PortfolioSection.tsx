@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ExternalLink } from "lucide-react";
 import aiAcademyPreview from "@/assets/portfolio/ai-academy-preview.jpg";
 
-type Category = "All" | "Projects" | "UGC" | "Brand Deals";
+type Category = "All" | "Projects";
 
 interface PortfolioItem {
   id: string;
