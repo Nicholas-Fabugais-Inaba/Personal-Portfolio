@@ -4,7 +4,7 @@ A personal portfolio website showcasing my travel adventures around the world �
 
 ## 🔗 Live Preview
 
-**[View the site →](https://id-preview--bf56d211-dc11-404c-9625-97827d8379cc.lovable.app)**
+**[View the site →](https://nicholas-fi.lovable.app)**
 
 ## ✨ Features
 
