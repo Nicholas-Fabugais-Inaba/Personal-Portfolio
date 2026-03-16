@@ -27,7 +27,7 @@ const portfolioItems: PortfolioItem[] = [
   },
 ];
 
-const categories: Category[] = ["All", "Projects", "UGC", "Brand Deals"];
+const categories: Category[] = ["All", "Projects"];
 
 const PortfolioSection = () => {
   const [activeCategory, setActiveCategory] = useState<Category>("All");
