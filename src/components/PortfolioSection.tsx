@@ -44,9 +44,6 @@ const PortfolioSection = () => {
           <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
             Portfolio
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl">
-            Projects, collaborations, and creative work I've been a part of.
-          </p>
         </div>
 
         {/* Category filters */}
