@@ -13,7 +13,7 @@ const getAge = () => {
 };
 
 const stats = [
-  { icon: Globe, value: "13", label: "Countries Visited" },
+  { icon: Globe, value: "15", label: "Countries Visited" },
   { icon: Zap, value: `${getAge()}`, label: "EXP Level" },
   { icon: MapPin, value: "🇨🇦 🇯🇵 🇵🇭", label: "Heritage" },
 ];
