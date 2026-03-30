@@ -30,6 +30,14 @@ function loadTripImages(id: string): string[] {
 
 export const tripsData: Omit<Trip, "images">[] = [
   {
+    id: "panama",
+    name: "Panama",
+    years: "2026",
+    yearValues: [2026],
+    description: "Stayed in Casco Viejo, saw the Panama Canal, and went on the Monkey Island tour",
+    locations: ["Casco Viejo", "Monkey Island", "Panama Canal", "Cafe Coca-Cola"],
+  },
+  {
     id: "nashville",
     name: "Nashville",
     years: "2025 / 2026",
