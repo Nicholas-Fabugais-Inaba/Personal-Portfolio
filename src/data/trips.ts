@@ -30,6 +30,14 @@ function loadTripImages(id: string): string[] {
 
 export const tripsData: Omit<Trip, "images">[] = [
   {
+    id: "guatemala",
+    name: "Guatemala",
+    years: "2026",
+    yearValues: [2026],
+    description: "Hiked Acatenango and Volcán de Fuego, swam in Lake Atitlan, and walked around Antigua",
+    locations: ["Acatenango", "Volcán de Fuego", "Panajachel", "San Marcos La Laguna", "Hobbitenango"],
+  },
+  {
     id: "panama",
     name: "Panama",
     years: "2026",
