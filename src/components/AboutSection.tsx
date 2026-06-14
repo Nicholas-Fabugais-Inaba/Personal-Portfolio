@@ -31,7 +31,7 @@ const AboutSection = () => {
 
             <div className="space-y-5">
               <p className="text-base text-muted-foreground leading-relaxed">
-                Hey, I'm Nick! A PM with a Software Engineering background, constantly learning about this little game I'd like to call life.
+                Hey, I'm Nick! A SE with a Software Engineering background, constantly learning about this little game I'd like to call life.
               </p>
               <p className="text-base text-muted-foreground leading-relaxed">
                 Aside from my professional life, I have a variety of passions in my personal life, including (but not limited to) traveling, music, the Toronto Maple Leafs, and Marvel!
