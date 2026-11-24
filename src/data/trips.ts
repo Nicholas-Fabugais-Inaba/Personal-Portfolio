@@ -46,6 +46,14 @@ export const tripsData: Omit<Trip, "images">[] = [
     locations: ["Casco Viejo", "Monkey Island", "Panama Canal", "Cafe Coca-Cola"],
   },
   {
+    id: "atlanta",
+    name: "Atlanta",
+    years: "2026",
+    yearValues: [2026],
+    description: "Work conference in Atlanta with some side quests including great eats and an Atlanta Braves game with my colleagues",
+    locations: ["Atlanta Braves", "Olympic Park", "Ponce City Market", "Krog Street Market"],
+  },
+  {
     id: "nashville",
     name: "Nashville",
     years: "2025 / 2026",

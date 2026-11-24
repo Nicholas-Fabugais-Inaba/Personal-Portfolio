@@ -15,7 +15,7 @@ A personal portfolio website showcasing my travel adventures around the world �
 
 ## 🗺️ Destinations
 
-Trips span from 2019–2026 across Asia, Europe, North America, and more — including Japan, Italy, Seoul, Philippines, Portugal, Amsterdam, Hawaii, Nashville, and many others.
+Trips span from 2019–2026 across Asia, Europe, North America, and more — including Japan, Italy, Seoul, Philippines, Portugal, Amsterdam, Hawaii, Atlanta, Nashville, and many others.
 
 ## 🛠️ Tech Stack
 
