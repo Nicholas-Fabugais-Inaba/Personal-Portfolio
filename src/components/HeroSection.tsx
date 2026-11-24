@@ -19,7 +19,7 @@ const HeroSection = () => {
           Inaba
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground font-body tracking-wide">
-          Pre-Sales Technical Consultant | World Explorer | Lifelong Learner
+          Product Consultant | World Explorer | Lifelong Learner
         </p>
       </div>
 
