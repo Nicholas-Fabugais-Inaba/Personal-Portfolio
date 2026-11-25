@@ -48,7 +48,12 @@ const TripGallery = ({ trip, onClose }: TripGalleryProps) => {
       <div className="sticky top-0 z-10 glass px-6 py-4 flex items-center justify-between">
         <div>
           <h2 className="font-display text-2xl font-bold text-foreground">{trip.name}</h2>
-          <p className="text-sm text-muted-foreground">{trip.years} · {trip.images.length} photos</p>
+          <div className="flex flex-wrap items-center gap-1.5 mt-1">
+            {trip.yearValues.map((year) => (
+              <span key={year} className="text-xs font-body font-semibold bg-primary text-primary-foreground px-3 py-1 rounded-full">{year}</span>
+            ))}
+            <span className="text-sm text-muted-foreground ml-1">{trip.images.length} photos</span>
+          </div>
         </div>
         <button
           onClick={onClose}

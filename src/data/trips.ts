@@ -15,14 +15,19 @@ function loadTripImages(id: string): string[] {
     "/src/assets/trips/**/*.{jpg,jpeg,JPG,JPEG,png,PNG}",
     { eager: true }
   );
+  const assetModules = import.meta.glob<{ default: { url: string } }>(
+    "/src/assets/trips/**/*.asset.json",
+    { eager: true }
+  );
 
   const prefix = `/src/assets/trips/${id}/`;
   const images: string[] = [];
 
   // Sort keys to ensure consistent ordering (first file = cover)
-  const sortedKeys = Object.keys(modules).filter(k => k.startsWith(prefix)).sort();
+  const sortedKeys = [...Object.keys(modules), ...Object.keys(assetModules)].filter(k => k.startsWith(prefix)).sort();
   for (const key of sortedKeys) {
-    images.push(modules[key].default);
+    const image = modules[key]?.default ?? assetModules[key]?.default.url;
+    if (image) images.push(image);
   }
 
   return images;

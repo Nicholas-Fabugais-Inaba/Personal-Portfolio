@@ -30,9 +30,13 @@ const TripCard = ({ trip, onClick }: TripCardProps) => {
           </div>
         )}
         <div className="absolute inset-0 card-overlay" />
-        <span className="absolute top-4 right-4 text-xs font-body font-semibold bg-primary text-primary-foreground px-3 py-1 rounded-full">
-          {trip.years}
-        </span>
+        <div className="absolute top-4 left-4 right-4 flex flex-wrap justify-end gap-1.5">
+          {trip.yearValues.map((year) => (
+            <span key={year} className="text-xs font-body font-semibold bg-primary text-primary-foreground px-3 py-1 rounded-full">
+              {year}
+            </span>
+          ))}
+        </div>
         {trip.images.length > 0 && (
           <span className="absolute bottom-4 left-4 text-xs font-body font-medium bg-background/70 text-foreground px-2.5 py-1 rounded-full backdrop-blur-sm">
             {trip.images.length} photo{trip.images.length !== 1 ? "s" : ""}
